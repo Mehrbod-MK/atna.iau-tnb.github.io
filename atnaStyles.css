@@ -1,8 +1,43 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap')
 
+@font-face {
+  font-family: 'bNazanin';
+  src: url('bnazanin-webfont.woff');
+}
+
 *
 {
 	margin: 0;
-	family: 'Poppins', sans-serif;
+	padding:  0;
+	box-sizing:  border-box;
+	font-family: 'B Nazanin', sans-serif;
+}
+
+p
+{
+	font-weight: 300;
+	color:  #lll;
+}
+
+.banner
+{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url('images/banner-bkg.png');
+	background-size: cover;
+}
+.banner .content
+{
+	max-width: 900px;
+	text-align: center;
+}
+.banner .content h2
+{
+	font-size: 3em;
+	color: #fff;
 }
