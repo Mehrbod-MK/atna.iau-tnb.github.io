@@ -15,6 +15,11 @@
     font-family: 'B Nazanin', sans-serif;
 }
 
+html
+{
+    scroll-behavior: smooth;
+}
+
 p
 {
     font-weight: 300;
@@ -108,6 +113,18 @@ header
 
 }
 
+header.sticky
+{
+    background: white;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+header.sticky .logo
+{
+    color: black;
+}
+
 header .logo
 {
     color: white;
@@ -140,4 +157,9 @@ header .navMenu li a
     color: white;
     font-weight: 350;
     font-size: 1.5em;
+}
+
+header.sticky .navMenu li a
+{
+    color: black;
 }
