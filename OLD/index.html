@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html dir="rtl">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>وبسایت رسمی انجمن علمی تکنولوژی نرم افزار</title>
+		<link rel="stylesheet" href="atnaStyles.css">
+	</head>
+
+	<body>
+		<header>
+			<a href="#" class="logo">ATN<span>A</span></a>
+			<ul class="navigation">
+				<li><a href="#banner">خانه</a></li>
+				<li><a href="#about">درباره</a></li>
+				<li><a href="#members">اعضاء</a></li>
+				<li><a href="#management">هیأت مدیره</a></li>
+				<li><a href="#courses">دوره ها</a></li>
+				<li><a href="#cultural">امور فرهنگی</a></li>
+				<li><a href="#contact">تماس با ما</a></li>
+			</ul>
+		</header>
+		<section class="banner" id="banner">
+			<div class="content">
+				<h2>به انجمن علمی تکنولوژی نرم افزار  خوش آمدید!</h2>
+				<p>باشگاه پژوهشگران جوان و نخبگان واحد تهران شمال</p>
+				<a href="#" class="btn"><span>نمایش خدمات ما</span></a>
+			</div>
+		</section>
+
+		<section class="about" id="about">
+			<div class="row">
+				<div class="col50">
+					<h2 class="titleText"><span>درباره </span>انجمن ما</h2>
+					<p>انجمن علمی-تکنولوژی نرم افزار دانشگاه آزاد اسلامی واحد تهران شمال به صورت رسمی فعّالیت خود را از سال 1400 خورشیدی  آغاز کرد.<br>این انجمن با زحمت های گرانقدر جناب آقای دکتر محمودی فر، ریاست محترم باشگاه پژوهشگران جوان و نخبگان در صدد برگزاری دوره های آموزش و انجام فعالیت های پژوهشگرانه در این واحد دانشگاهی می باشد.</p>
+				</div>
+				<div class="col50">
+					<div class="imgBx">
+						<img src="images/atna_logo.png">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<script type="text/javascript">
+			window.addEventListener('scroll', function(){
+				const header = document.querySelector('header');
+				header.classList.toggle('sticky', window.scrollY > 0);
+			});
+		</script>
+
+	</body>
+</html>

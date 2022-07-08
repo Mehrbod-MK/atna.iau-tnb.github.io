@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+}
+
+.mainBanner
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    position: fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+
+    background-image: url("/images/mainBanner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: "B Nazanin", sans-serif;
+}
+
+.mainBanner #mainBanner_Title
+{
+    animation-name: mainBanner_Title_Animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 1.5s;
+}
+
+@keyframes mainBanner_Title_Animation
+{
+    50%
+    {
+        opacity: 50%;
+    }
+}
