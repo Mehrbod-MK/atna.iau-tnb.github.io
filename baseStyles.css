@@ -21,6 +21,11 @@ p
     color: white;
 }
 
+body
+{
+    min-height: 1000px;
+}
+
 .banner
 {
     position: relative;
@@ -63,8 +68,76 @@ p
     
     border-style: dashed;
     border-radius: 7px;
+    
+    transition: 0.5s;
 }
 .mainButton:hover
 {
+    border-style: groove;
+    border-radius: 15px;
+    border-color: yellow;
 
+    background-color: darkred;
+}
+.mainButton:active
+{
+    border-style: double;
+    border-radius: 20px;
+    border-color: red;
+
+    transition: 0.05s;
+
+    background-color: yellow;
+    color: black;
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    transition: 0.5s;
+
+
+}
+
+header .logo
+{
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+header .logo span
+{
+    color: red;
+}
+
+header .navMenu
+{
+    position: relative;
+    display: flex;
+
+}
+
+header .navMenu li
+{
+    list-style: none;
+    margin-left: 35px;
+}
+
+header .navMenu li a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 350;
+    font-size: 1.5em;
 }
