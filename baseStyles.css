@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'B Nazanin';
-    src: url('/fonts/BNazanin.woff2') format('woff2'),
-        url('/fonts/BNazanin.woff') format('woff');
+    src: url('./fonts/BNazanin.woff2') format('woff2'),
+        url('./fonts/BNazanin.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -29,7 +29,7 @@ p
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(/images/mainBanner.jpg);
+    background: url(./images/mainBanner.jpg);
     background-size: cover;
 }
 
