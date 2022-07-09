@@ -157,9 +157,22 @@ header .navMenu li a
     color: white;
     font-weight: 350;
     font-size: 1.5em;
+
+    transition: 0.2s;
+}
+
+header .navMenu li a:hover
+{
+    color: yellow;
 }
 
 header.sticky .navMenu li a
 {
     color: black;
+    transition: 0.2s;
+}
+
+header.sticky .navMenu li a:hover
+{
+    color: red;
 }
